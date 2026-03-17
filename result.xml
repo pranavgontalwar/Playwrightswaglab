@@ -1,0 +1,32 @@
+<testsuites id="" name="" tests="9" failures="0" skipped="0" errors="0" time="13.147382000000002">
+<testsuite name="endToEndTest.spec.ts" timestamp="2026-03-17T15:29:45.670Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.917" errors="0">
+<testcase name="Test SwagLab Site End To End Test" classname="endToEndTest.spec.ts" time="2.917">
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="2026-03-17T15:29:45.670Z" hostname="chromium" tests="2" failures="0" skipped="0" time="1.735" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="0.773">
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="0.962">
+</testcase>
+</testsuite>
+<testsuite name="endToEndTest.spec.ts" timestamp="2026-03-17T15:29:45.670Z" hostname="firefox" tests="1" failures="0" skipped="0" time="6.695" errors="0">
+<testcase name="Test SwagLab Site End To End Test" classname="endToEndTest.spec.ts" time="6.695">
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="2026-03-17T15:29:45.670Z" hostname="firefox" tests="2" failures="0" skipped="0" time="8.673" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="3.485">
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="5.188">
+</testcase>
+</testsuite>
+<testsuite name="endToEndTest.spec.ts" timestamp="2026-03-17T15:29:45.670Z" hostname="webkit" tests="1" failures="0" skipped="0" time="5.875" errors="0">
+<testcase name="Test SwagLab Site End To End Test" classname="endToEndTest.spec.ts" time="5.875">
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="2026-03-17T15:29:45.670Z" hostname="webkit" tests="2" failures="0" skipped="0" time="3.603" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="1.737">
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="1.866">
+</testcase>
+</testsuite>
+</testsuites>
