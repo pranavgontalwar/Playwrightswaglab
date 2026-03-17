@@ -91,3 +91,23 @@ test("Test SwagLab Site End To End Test", async ({page})=>{
     await expect(page.getByRole('button', {name:'Login'})).toHaveText('Login');
 
 })
+
+test("Checking the sample test 2 and verifying the agian dashboard", async ({page})=>{
+    
+    await page.goto("https://www.saucedemo.com/");
+    const text:Locator =page.getByText('Swag Labs');
+    await expect(text).toHaveText('Swag Labs');
+
+
+    //Login page
+    await page.getByPlaceholder('Username').fill('standard_user');
+    await page.getByPlaceholder('Password').fill('secret_sauce');
+    await page.getByRole('button', {name :'login'}).click();
+    // await page.locator('#login-button').click(); //This is also be used when proper locator is not found
+
+    
+    //After Login Verify on dashbboard 
+
+    const dashboardtext:Locator = page.getByText('Swag Labs');
+    await expect(dashboardtext).toHaveText('Swag Labs');
+})
