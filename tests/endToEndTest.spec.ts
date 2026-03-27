@@ -89,8 +89,8 @@ test("Test SwagLab Site End To End Test", async ({page})=>{
     await expect(page.getByPlaceholder('Username')).toBeVisible();
     await expect(page.getByPlaceholder('Password')).toBeVisible();
     await expect(page.getByRole('button', {name:'Login'})).toHaveText('Login');
-
-})
+    //await expect(page.getByRole('button', {name:'Login'})).toHaveText('Login 12345'); //failed TC
+});
 
 test("Checking the sample test 2 and verifying the agian dashboard", async ({page})=>{
     
@@ -108,6 +108,7 @@ test("Checking the sample test 2 and verifying the agian dashboard", async ({pag
     
     //After Login Verify on dashbboard 
 
-    const dashboardtext:Locator = page.getByText('Swag Labs');
-    await expect(dashboardtext).toHaveText('Swag Labs');
-})
+   const dashboardtext:Locator = page.getByText('Swag Labs');
+   await expect(dashboardtext).toHaveText('Swag Labs');
+   //await expect(dashboardtext).toHaveText('Swag Labs 123'); //Failed TC
+});

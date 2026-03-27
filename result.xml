@@ -1,38 +1,8 @@
-<testsuites id="" name="" tests="12" failures="0" skipped="0" errors="0" time="14.657962">
-<testsuite name="endToEndTest.spec.ts" timestamp="2026-03-17T15:44:07.431Z" hostname="chromium" tests="2" failures="0" skipped="0" time="3.976" errors="0">
-<testcase name="Test SwagLab Site End To End Test" classname="endToEndTest.spec.ts" time="2.912">
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="4.317469">
+<testsuite name="endToEndTest.spec.ts" timestamp="2026-03-27T06:52:49.887Z" hostname="chromium" tests="2" failures="0" skipped="0" time="4.266" errors="0">
+<testcase name="Test SwagLab Site End To End Test" classname="endToEndTest.spec.ts" time="2.908">
 </testcase>
-<testcase name="Checking the sample test 2 and verifying the agian dashboard" classname="endToEndTest.spec.ts" time="1.064">
-</testcase>
-</testsuite>
-<testsuite name="example.spec.ts" timestamp="2026-03-17T15:44:07.431Z" hostname="chromium" tests="2" failures="0" skipped="0" time="1.772" errors="0">
-<testcase name="has title" classname="example.spec.ts" time="0.762">
-</testcase>
-<testcase name="get started link" classname="example.spec.ts" time="1.01">
-</testcase>
-</testsuite>
-<testsuite name="endToEndTest.spec.ts" timestamp="2026-03-17T15:44:07.431Z" hostname="firefox" tests="2" failures="0" skipped="0" time="9.09" errors="0">
-<testcase name="Test SwagLab Site End To End Test" classname="endToEndTest.spec.ts" time="5.436">
-</testcase>
-<testcase name="Checking the sample test 2 and verifying the agian dashboard" classname="endToEndTest.spec.ts" time="3.654">
-</testcase>
-</testsuite>
-<testsuite name="example.spec.ts" timestamp="2026-03-17T15:44:07.431Z" hostname="firefox" tests="2" failures="0" skipped="0" time="8.146" errors="0">
-<testcase name="has title" classname="example.spec.ts" time="3.877">
-</testcase>
-<testcase name="get started link" classname="example.spec.ts" time="4.269">
-</testcase>
-</testsuite>
-<testsuite name="endToEndTest.spec.ts" timestamp="2026-03-17T15:44:07.431Z" hostname="webkit" tests="2" failures="0" skipped="0" time="8.014" errors="0">
-<testcase name="Test SwagLab Site End To End Test" classname="endToEndTest.spec.ts" time="6.2">
-</testcase>
-<testcase name="Checking the sample test 2 and verifying the agian dashboard" classname="endToEndTest.spec.ts" time="1.814">
-</testcase>
-</testsuite>
-<testsuite name="example.spec.ts" timestamp="2026-03-17T15:44:07.431Z" hostname="webkit" tests="2" failures="0" skipped="0" time="2.214" errors="0">
-<testcase name="has title" classname="example.spec.ts" time="0.94">
-</testcase>
-<testcase name="get started link" classname="example.spec.ts" time="1.274">
+<testcase name="Checking the sample test 2 and verifying the agian dashboard" classname="endToEndTest.spec.ts" time="1.358">
 </testcase>
 </testsuite>
 </testsuites>
